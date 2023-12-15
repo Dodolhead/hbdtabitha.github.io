@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@500&family=Kalam&family=Roboto+Mono:wght@100&display=swap');
+*{
+    background-color: #7071E8;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Caveat", cursive;
+}
+
+/* Navbar */
+
+.navbar ul{
+    list-style: none;
+    background-color: #C683D7;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+
+
+.navbar a,li{
+    text-decoration: none;
+    background-color: #C683D7;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar a:hover{
+    color:#FFC0D9;
+    font-size: 25px;
+}
+
+.navbar li{
+    float: left;
+}
+
+#home {
+    margin-left: 1000px;
+}
+
+#hmm {
+    margin-left: 50px;
+}
+
+#hehe {
+    width: 75px;
+    height: 50px;
+    background-color: #C683D7;
+    margin-left: 200px;
+}
+
+/*Navbar*/
+
+/*part1*/
+
+.part1{
+    margin-left: 100px;
+    float: left;
+    display: flex;
+    color: pink;
+}
+
+.part1 h1{
+    margin-top: 25%;
+    font-size: 100px;
+    animation: slidepart1;
+    animation-duration: 1s;
+    
+}
+
+.part1 p{
+    margin-top: 10%;
+    font-family: "Kalam", cursive;
+    padding-right: 50px;
+    animation: slidepart1;
+    animation-duration: 1s;
+    font-size: 25px;
+}
+
+.part1 img{
+    margin-top: 10%;
+    width: 800px;
+    height: 800px;
+    animation: slidepart1;
+    animation-duration: 1s;
+}
+
+@keyframes slidepart1{
+    from {transform: translateX(-100%);}
+    to {transform: translateX(0);}
+}
+
+/*part1*/
+
+/*part2*/
+
+.part2slides{
+    animation: 10s slidepart2 infinite linear;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: calc(360px*12);
+}
+
+.part2slides img{
+    margin: 0 30px;
+    width: 300px;
+    height: 250px;
+}
+
+@keyframes slidepart2{
+    0% {transform: translateX(0);}
+    100% {transform: translateX(calc(-360px * 6));}
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+/*part2*/
+
+/*page1*/
+
+/*page2*/
+
+.title{
+    font-size: 50px;
+    color: pink;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    animation: slidepart1 1s;
+    justify-content: space-around;
+    
+}
+
+.box{
+    margin-top: 150px;
+    height: 50%;
+    text-align: center;
+    color: #7B66FF;
+    position: relative;
+    background: #ED9ED6;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-style: groove;
+    border-color: purple;
+    animation: slidepart1 1s;
+    margin-bottom: 50px;
+}
+
+.box h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #ED9ED6;
+}
+
+#img1{
+    height: 150px;
+    width: 250px;
+}
+
+#img2{
+    height: 200px;
+    width: 225px;
+}
+
+.box p{
+    background: #ED9ED6;
+    font-family: "Kalam", cursive;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.box u,b{
+    background: #ED9ED6;
+    font-family: "Kalam", cursive;
+}
+
+/*page2*/
+
+/*page3*/
+
+body{
+    min-height: 100vh;
+}
+
+.title{
+    font-size: 50px;
+    color: pink;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    animation: slidepart1 1s;
+    justify-content: space-around;
+    
+}
+
+.box2{
+    margin-top: 150px;
+    height: 50%;
+    text-align: center;
+    color: #7B66FF;
+    position: relative;
+    background: #ED9ED6;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-style: groove;
+    border-color: purple;
+    animation: slidepart1 1s;
+}
+
+.box2 h1{
+    margin-top: 50px;
+    background: #ED9ED6;
+}
+
+.box2 h2{
+    background: #ED9ED6;
+    margin-bottom: 50px;
+}
+
+.box2 p{
+    background: #ED9ED6;
+    font-family: "Kalam", cursive;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.box u,b,i{
+    background: #ED9ED6;
+    font-family: "Kalam", cursive;
+}
